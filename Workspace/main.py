@@ -86,7 +86,7 @@ while not gameOver:
     gamescreen.fill((0, 0, 0))
     for i in range(len(xpos)):
         gamescreen.blit(rock, (int(xpos[i]), int(ypos[i])))
-        
+
         pygame.draw.circle(gamescreen, ((random.randrange(0, 255), random.randrange(
             0, 255), random.randrange(0, 255))), (int(xpos[i]), int(ypos[i])), int(sizes[i]))
     pygame.display.flip()
