@@ -25,7 +25,7 @@ rock = pygame.transform.scale(rock, (100, 100))
 
 while not gameOver:
     pygame.mixer.Sound.play(quack)
-    clock.tick(60)
+    clock.tick(120)
 
     # particles
     for i in range(1):
